@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono Regular';
+
+}
+.firstpage{
+    background-color: #050A30;
+    color: white;
+    padding: 2rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82.5vh;
+}
+
+.left{
+    width: 45%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 45%;
+}
+.tagline{
+    color: #8DD8E8;
+    font-size: 2.5rem;
+}
+.right p{
+    margin: 1rem 0px;
+}
+.btn1{
+    background-color: #587DFA;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.btn2{
+    background-color: #E36231;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn3{
+    color: black;
+    background-color: #FFBD59;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    display: inline;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btns{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sencondpage{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.sencondpage img{
+    height: 250px;
+    width: 250px;
+}
+.sencondpage .container2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.box{
+    width: 250px;
+}
+
+.footer{
+    background-color: #050A30;
+    color: white;
+    padding: 1rem;
+   
+}
+.mainfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hidden{
+    display: none;
+}
+
+@media screen and (max-width: 1070px) {
+    .container{
+        flex-direction: column;
+    }
+    .tagline{
+        font-size: 2rem;
+    }
+    .left{
+        width: 80%;
+    }
+    .right{
+        width: 90%;
+    }
+    .sencondpage .container2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container{
+        padding: 0.5rem;
+    }
+    .sencondpage>h1{
+        padding: 1rem;
+    }
+    
+}
